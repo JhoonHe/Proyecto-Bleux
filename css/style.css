@@ -1,0 +1,686 @@
+/* Ajustes generales */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pagina{
+    width: 1366px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav */
+
+header{
+    display: flex;
+    background-color: #1e172f;
+    justify-content: space-around;
+    font-size: 17px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li #boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #7f4ad0, #1475d4);
+    width: 150px;
+    height: 45px;
+    border-radius: 3px;
+}
+
+nav a {
+    color: #777381;
+}
+
+nav #boton{
+    color: white;
+}
+
+nav #about a{
+    color: white;
+}
+
+nav ul li #boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #7f4ad0, #1475d4);
+    width: 150px;
+    height: 45px;
+    border-radius: 3px;
+}
+
+.abrir-menu, .cerrar-menu{
+    display: none;
+    color:#2e2550;
+}
+
+/* Sección producto-pagina */
+
+.producto-pagina{
+    display: flex;
+    background-color: #2e2550;
+    height: 600px;
+}
+
+/* Texto */
+
+.producto-pagina .texto{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto-pagina .elemento{
+    /* padding-left: 200px; */
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.producto-pagina h2{
+    width: 200px;
+    font-size: 70px;
+    color: white;
+}
+
+.producto-pagina .texto p{
+    width: 500px;
+    font-size: 23px;
+    color: white;
+}
+
+/* Botones producto-pagina */
+
+.producto-pagina .botones {
+    border: 2px grey solid;
+    border-radius: 5px;
+    width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.producto-pagina .botones #download{
+    background-color: white;
+    height: 40px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: #ef4b9f;
+}
+
+.producto-pagina .botones #features{
+    border: 2px white solid;
+    height: 40px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+}
+
+/* Celular */
+
+.producto-pagina .celular{
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+
+.producto-pagina .fondo{
+    background: url(/img/Fondo-hojas.jpg) no-repeat;
+    /* background-size: calc(100%); */
+    background-size: cover;
+    width: 100%;
+    opacity: 0.6;
+    position: relative;
+}
+
+.producto-pagina .celular img{
+    width: 230px;
+    height: 450px;
+    position: absolute;
+    top: 95px;
+    z-index: 3;
+    left: 120px;
+}
+
+/* Funcionalidades */
+
+.funcionalidades{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    padding: 40px;
+    background-color: #f1f2f7;
+}
+
+.funcionalidades h2{
+    font-size: 60px;
+    color: #f41486;
+}
+
+.funcionalidades .contenido{
+    display: flex;
+    gap: 80px;
+}
+
+.funcionalidades img{
+    width: 450px;
+}
+
+/* Texto funcionalidades */
+
+.funcionalidades .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #7d7e7f;
+}
+
+.funcionalidades .alfa{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.funcionalidades .alfa p{
+    width: 380px;
+} 
+
+.funcionalidades .alfa h3{
+    color: #c2558e;
+    font-size: 40px;
+}
+
+.funcionalidades .mercadeo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.funcionalidades .mercadeo li{
+    list-style: none;
+}
+
+.funcionalidades .mercadeo h3{
+    color: #c2558e;
+    font-size: 20px;
+}
+
+.funcionalidades .mercadeo i{
+    color: #f250a4;
+}
+
+/* Planes y precios */
+
+.precios-planes{
+    font-size: 20px;
+    background-color: #1e172f;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+/* Texto planes y precios */
+
+.precios-planes .texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.precios-planes .texto h2{
+    font-size: 60px;
+    color: white;
+}
+
+.precios-planes .texto p{
+    color:#a0a0a0;
+    width: 780px;
+    text-align: center;
+}
+
+/* Elementos Planes y precios */
+
+.precios-planes .elementos{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.precios-planes .elementos .elemento{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: #7a7683;
+    background-color: white;
+    border-radius: 7px;
+    padding-top: 10px;
+}
+
+.precios-planes .elemento h3{
+    color: #35304c;
+}
+
+/* Precios Planes y precios*/
+
+.precios-planes .elemento .precios{
+    background-color: #f5f5f5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.precios-planes .elemento .precios .valor{
+    text-align: center;
+    display: flex;
+    gap: 5px;
+}
+
+.precios-planes .elemento .precios #precio{
+    font-size: 50px;
+    color:#292929;
+}
+
+.precios-planes .elemento .precios #valor-cambio{
+    width: 200px;
+}
+
+.precios-planes .elemento .precios p{
+    width: auto;
+}
+
+.precios-planes .elemento .lista{
+    display: flex;
+    gap: 30px;
+}
+
+.precios-planes .elemento li{
+    list-style: none;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.precios-planes .elemento i{
+    width: 20px;
+    color: #292929;
+    display: flex;
+    align-items: center;
+}
+
+.precios-planes .elementos .elemento .textos p{
+    width: 250px;
+    text-align: center;
+}
+
+/* Precios-planes elemento lite */
+
+.precios-planes #lite h3{
+    color: #f41888;
+}
+
+.precios-planes .listas-lite i{
+    color: #f41888;
+    
+}
+
+.precios-planes #lite #subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ec5ea7, #f41787);
+    width: 180px;
+    height: 45px;
+    border-radius: 3px;
+    color:#e4e4e4;
+}
+
+/* Boton Precios planes */
+
+.precios-planes .boton{
+    background-color: #f5f5f5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.precios-planes .elementos .elemento #subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2550;
+    width: 180px;
+    height: 45px;
+    border-radius: 3px;
+    color:#e4e4e4;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contenido{
+    display: flex;
+    width: 77%;
+    justify-content: space-between;
+}
+
+footer .info{
+    font-size: 20px;
+    color:#777381;
+}
+
+footer .info a{
+    color:#c2558e;
+}
+
+footer .redes{
+    display: flex;
+    gap: 20px;
+}
+
+footer .redes a{
+    color: #3f3f3f;
+    font-size: 25px;
+}
+
+/* Reponsive */
+
+@media screen and (max-width: 1200px){
+    
+    body{
+        width: 100%;        
+    }
+    
+    .pagina{
+        max-width: 1200px;
+        min-width: 993px;
+    }
+
+    /* Seccion producto-pagina*/
+
+    .producto-pagina .elemento{
+        margin-left: 130px;
+    }
+
+    .producto-pagina .texto p{
+        width: 430px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    body{
+        width: 100%;
+    }
+
+    .pagina{
+        max-width: 992px;
+        min-width: 769px;
+    }
+
+    /* Seccion producto-pagina*/
+
+    .producto-pagina .elemento{
+        margin-left: 90px;
+    } 
+
+    .producto-pagina .texto p{
+        width: 380px;
+        font-size: 18px;
+    }
+
+    /* Planes y precios */
+    
+    .precios-planes .elementos .elemento{
+        width: 30%;
+    }
+
+    /* Footer */
+
+    footer .contenido{
+        width: 91%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        width: 100%;
+    }
+
+    .pagina{
+        max-width: 768px;
+        min-width: 481px;
+    }
+
+    /* Seccion producto-pagina*/
+
+    .producto-pagina .elemento{
+        margin: 0px;
+    }
+
+    .producto-pagina h2{
+        font-size: 60px;
+    }
+
+    .producto-pagina .texto p{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    /* Producto pagina celular */
+
+    .producto-pagina .celular img{
+        top: 100px;
+        left: 50px;
+    }
+
+    /* Botones producto-pagina */
+
+    .producto-pagina .botones{
+        width: 100%;
+    }
+
+    .producto-pagina .botones #download{
+        /* flex-direction: column; */
+        width: 50%;
+    }
+
+    /* Funcionalidades */
+
+    .funcionalidades .contenido{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .funcionalidades .texto{
+        gap: 15px;
+    }
+
+    /* Planes y precios */
+    
+    .precios-planes .elementos{
+        flex-wrap: wrap;
+    }
+
+    .precios-planes .elementos .elemento{
+        width: 40%;
+    }
+
+    .precios-planes .texto p{
+        width: 650px;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+
+    body{
+        width: 100%;
+    }
+
+    .pagina{
+        max-width: 480px;
+        min-width: 1px;
+    }
+
+    /* Seccion Producto Pagina */
+
+    .producto-pagina h2{
+        width: auto;
+    }
+
+    .producto-pagina .celular{
+        display: none;
+    }
+
+    .producto-pagina .texto{
+        width: 100%;
+        text-align: center;
+    }
+
+    .producto-pagina .texto p{
+        width: 400px;
+    }
+
+    .producto-pagina .elemento{
+        gap: 50px;
+    }
+
+    /* Planes precios */
+
+    .precios-planes .texto p{
+        width: 400px;
+    }
+
+    .precios-planes .elementos{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .precios-planes .elementos .elemento{
+        width: 70%;
+    }
+
+    /* Footer */
+
+    footer{
+        padding: 40px;
+    }
+
+    footer .contenido{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    footer .info p{
+        text-align: center;
+    }
+
+    /* Nav */
+
+    .abrir-menu, .cerrar-menu{
+        display: block;
+    }
+    
+    nav{
+        opacity: 0px;
+        visibility: hidden;
+    }  
+
+    nav{
+        position: absolute;
+        top: 0px;
+        flex-direction: column;
+        align-items: end;
+        left: 0px;
+        flex-direction: column;
+        align-items: end;
+        background-color:#292929;
+        padding: 22px;
+        border-end-end-radius: 20px;
+        box-shadow: 0px 0px 0px 10000vmax rgba(0, 0, 0, .7);
+    }
+
+    header{
+        flex-direction: row-reverse;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    header i{
+        color: white;
+        font-size: 30px;
+    }
+
+    button{
+        background-color:transparent;
+        border: none;
+    }
+
+}
