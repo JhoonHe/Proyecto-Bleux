@@ -603,6 +603,12 @@ footer .redes a{
         gap: 50px;
     }
 
+    /* Funcionalidades */
+
+    .funcionalidades .contenido img{
+        width: 350px;
+    }
+
     /* Planes precios */
 
     .precios-planes .texto p{
